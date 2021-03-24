@@ -68,39 +68,7 @@ namespace MVC.Controllers
            
             return View();
         }
-        public async Task<ActionResult> Edit(int id)
-        {
-            ViewBag.Message = "Faça a edição do usuário.";
-
-            var user = new UserData();
-            HttpClient client = api.Initial();
-            HttpResponseMessage res = await client.GetAsync($"api/users/{id}");
-            if (res.IsSuccessStatusCode)
-            {
-                var results = res.Content.ReadAsStringAsync().Result;
-                user = JsonConvert.DeserializeObject<UserData>(results);
-            }
-            return View(user);
-        }
-        [HttpPost]
-        public ActionResult Edit(UserData user)
-        {
-            HttpClient client = api.Initial();
-
-            var json = JsonConvert.SerializeObject(user);
-            var stringContent = new StringContent(json, System.Text.UnicodeEncoding.UTF8, "application/json");
-            var putTask = client.PutAsync("api/users", stringContent);
-            //putTask.Wait();
-
-            var result = putTask.Result;
-            if (result.IsSuccessStatusCode)
-            {
-                return RedirectToAction("Index");
-            }
-            return View();
-
-        }
-
+       
         public async Task<ActionResult> Delete(int id)
         {
 

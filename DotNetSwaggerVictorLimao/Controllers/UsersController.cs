@@ -84,8 +84,8 @@ namespace DotNetSwaggerVictorLimao.Controllers
             return BadRequest("Formulário não é válido");   
             if(user.Gender != "M" && user.Gender != "F")
             {
-                ModelState.AddModelError("name", "Sexo deve ser preenchido com M' ou 'F'");
-                return BadRequest("Sexo inválido.");
+                ModelState.AddModelError("Gender", "Sexo deve ser preenchido com 'M' ou 'F'.");
+                return BadRequest("Sexo inválido, deve ser preenchido com 'M' ou 'F'.");
             }
                 _context.User.Add(user);
                 _context.SaveChanges();
