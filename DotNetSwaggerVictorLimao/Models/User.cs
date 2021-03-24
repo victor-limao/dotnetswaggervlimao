@@ -16,13 +16,5 @@ namespace DotNetSwaggerVictorLimao.Models
         public string CPF { get; set; }
         [Display(Name = "Sexo"), Required(ErrorMessage = "Sexo é obrigatório."), StringLength(1, ErrorMessage = "Sexo não pode ser maior que 1 caracter. Preencher com 'M' ou 'F'")]
         public string Gender { get; set; }
-        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
-        {
-            if (Gender.ToString() != "F" && Gender.ToString() != "M")
-            {
-                yield return new ValidationResult(
-                    "Sexo deve ser preenchido com 'F' ou 'M'", new[] { "Name" });
-            }
-        }
     }
 }
