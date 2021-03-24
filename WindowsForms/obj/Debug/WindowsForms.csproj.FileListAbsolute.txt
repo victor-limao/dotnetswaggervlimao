@@ -1,0 +1,14 @@
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\WindowsForms.exe.config
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\WindowsForms.exe
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\WindowsForms.pdb
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.csprojAssemblyReference.cache
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.ConsomeListagemAPI.resources
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.exe
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.pdb
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\victo\source\repos\DotNetSwaggerVictorLimao\WindowsForms\obj\Debug\WindowsForms.csproj.CopyComplete
